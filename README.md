@@ -25,7 +25,7 @@ pip install matplotlib
 
 We provide the datasets that we used in our experiments in ```Datasets``` directory.
 
-+ Please Note that, although we intended to provide the datasets for the convenience of the review process, we could only provide some sample datasets here due to the space limitation. These datasets are not for distribution. Upon acceptance, we will provide detail instruction on how to collect all the datasets.
++ Please Note that, although we intended to provide the datasets for the convenience of the review process, we could only provide some sample datasets due to the space limitation. These datasets are not for distribution. Upon acceptance, we will provide detail instruction on how to collect all the datasets.
 
 
 For Fish and SCL-Fish training, please run the following command:
