@@ -23,20 +23,20 @@ pip install matplotlib
 
 ## 2. Data Preprocessing:
 
-We provide the datasets that we used in our experiments in ```Datasets``` directory.
+We provide the datasets that we used in our experiments here:
+After downloading, please put the datasets in ```Datasets``` directory.
 
-+ Please Note that, although we intended to provide the datasets for the convenience of the review process, we could only provide some sample datasets due to the space limitation. These datasets are not for distribution. Upon acceptance, we will provide detail instruction on how to collect all the datasets.
++ Please Note that, we have provided the datasets for the convenience of the review process. These datasets are not for distribution. Upon acceptance, we will provide detail instruction on how to collect all the datasets.
 
 
-For Fish and SCL-Fish training, please run the following command:
+Please run the following commands:
 ```diff
 python3 Data_Processing_Fish.py
-```
-For ERM and SCL-ERM training, please run the following command:
-```diff
 python3 Data_Processing_ERM.py
 ```
+
 The preprocessed datasets will be stored in ```Pickles/Domain``` directory.
+To facilitate reproducibility, we have provided the preprocessed data here: 
 
 
 
