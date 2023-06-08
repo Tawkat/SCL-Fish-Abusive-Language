@@ -23,21 +23,16 @@ pip install matplotlib
 
 ## 2. Data Preprocessing:
 
-We provide the datasets that we used in our experiments [here](https://drive.google.com/drive/folders/1IyBSVtUZ0vhm-xeZW1sBGhMIilOdooyF?usp=sharing)</br>
+Please collect the datasets that we used in our paper from their corresponding original works.</br>
 After downloading, please put the datasets in ```Datasets``` directory.</br>
 
-+ Please Note that, we have provided the datasets for the convenience of the review process. These datasets are not for distribution. Upon acceptance, we will provide detail instruction on how to collect all the datasets.
-
-
-Please run the following commands:
+Run the following commands:
 ```diff
 python3 Data_Processing_Fish.py
 python3 Data_Processing_ERM.py
 ```
 
 The preprocessed datasets will be stored in ```Pickles/Domain``` directory.</br>
-To facilitate reproducibility, we have provided the preprocessed data [here](https://drive.google.com/drive/folders/1oIjqPrI27M6Xr87WS1VvihZAoqutkXL3?usp=sharing)</br>
-
 
 
 ## 3. Run Model:
